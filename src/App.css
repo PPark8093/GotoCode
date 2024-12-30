@@ -54,7 +54,11 @@
     font-weight: bold;
 }
 
-.back_button:hover , :focus {
+.back_button:hover  {
     border: 2px solid white;
-    transform: scale(1.05);
+    transform: scale(0.95);
+}
+
+.back_button:active {
+    transform: scale(0.95);
 }

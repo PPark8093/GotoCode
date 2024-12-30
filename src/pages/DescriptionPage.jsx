@@ -1,9 +1,11 @@
 import React from 'react'
 import "../styles/DescriptionPage.css"
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useNavigate } from 'react-router-dom'
 import StartPage from './Description/StartPage'
 
 function DescriptionPage() {
+    const navi = useNavigate();
+
     return (
         <div className='house description'>
             <div className='title_container'>
