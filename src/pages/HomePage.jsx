@@ -22,7 +22,7 @@ function HomePage() {
                 <button className='button start_button' onClick={() => {navi("/description/start")}}>시작하기</button>
                 <button className='button' onClick={() => window.open("https://developer.mozilla.org/ko/docs/Web/CSS")}>MDN 읽기<span className='additional_description_span'>(css)</span></button>
                 <button className='button' onClick={() => navi("/about")}>만든 이유</button>
-                <button className='button'>흠..</button>
+                <button className='button' onClick={() => window.open("https://www.mozilla.org/ko/firefox/browsers/browser-history/")}>웹의 역사</button>
             </div>
             <footer className="footer">
                 <p>&copy; 2024 <a href='https://github.com/PPark8093' target='_blank'>PPark8093</a>. All rights reserved.</p>
