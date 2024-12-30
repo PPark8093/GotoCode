@@ -46,3 +46,57 @@
     padding: 10px 0 10px 10px;
     width: 400px;
 }
+
+/* 반응형 디자인 추가 */
+@media (max-width: 768px) {
+    .start {
+        padding-left: 10px;
+    }
+
+    .horizon_block {
+        flex-direction: column; /* 모바일에서 세로 방향으로 배치 */
+        gap: 30px;
+    }
+
+    .description_block {
+        width: 100%; /* 모바일에서 화면 크기에 맞게 조정 */
+    }
+
+    .title1 {
+        font-size: 22px; /* 타이틀 크기 줄이기 */
+    }
+
+    .title2 {
+        font-size: 18px; /* 설명 글자 크기 줄이기 */
+    }
+
+    .block_text {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .start {
+        padding-left: 5px;
+    }
+
+    .horizon_block {
+        gap: 20px;
+    }
+
+    .description_block {
+        width: 100%;
+    }
+
+    .title1 {
+        font-size: 20px; /* 더 작은 화면에서 타이틀 크기 더 줄이기 */
+    }
+
+    .title2 {
+        font-size: 16px; /* 더 작은 화면에서 설명 글자 크기 더 줄이기 */
+    }
+
+    .block_text {
+        gap: 8px;
+    }
+}
