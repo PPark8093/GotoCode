@@ -75,6 +75,11 @@ h2 {
         padding: 1em;
     }
 
+    .button {
+        font-size: 26px; /* 모바일에서 버튼 텍스트 크기를 좀 더 키움 */
+        padding: 0.6em 1.2em;
+    }
+
     .about_inner_container {
         font-size: 18px;
         width: 100%;
@@ -93,6 +98,11 @@ h2 {
     .contenta_container {
         gap: 1em;
         padding: 0.5em;
+    }
+
+    .button {
+        font-size: 26px; /* 모바일에서 버튼 텍스트 크기를 좀 더 키움 */
+        padding: 0.6em 1.2em;
     }
 
     .about_inner_container {
