@@ -70,9 +70,11 @@
         font-size: 18px; /* 설명 글자 크기 줄이기 */
     }
 
-    .block_text {
-        gap: 10px;
-    }
+    .description_block {
+        margin: 10px 0 10px 0;
+        padding: 10px 10px 10px 10px;
+        width: 90%;
+    }    
 }
 
 @media (max-width: 480px) {
@@ -94,9 +96,5 @@
 
     .title2 {
         font-size: 16px; /* 더 작은 화면에서 설명 글자 크기 더 줄이기 */
-    }
-
-    .block_text {
-        gap: 8px;
     }
 }
