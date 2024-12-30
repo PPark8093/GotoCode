@@ -74,7 +74,11 @@
         margin: 10px 0 10px 0;
         padding: 10px 10px 10px 10px;
         width: 90%;
-    }    
+    }
+
+    .vertical_line {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
@@ -96,5 +100,9 @@
 
     .title2 {
         font-size: 16px; /* 더 작은 화면에서 설명 글자 크기 더 줄이기 */
+    }
+
+    .vertical_line {
+        display: none;
     }
 }
