@@ -1,10 +1,14 @@
 import React from 'react'
 import "../styles/AboutPage.css"
+import { useNavigate } from 'react-router-dom'
 
 function AboutPage() {
+    const navi = useNavigate();
+
     return (
         <div className='house'>
             <div className='title_container'>
+                <button className='back_button' onClick={() => {navi(-1)}}>&lt;</button>
                 <h1>About</h1>
             </div>
             <div className='content_container'>
