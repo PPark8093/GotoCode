@@ -62,3 +62,50 @@
 .back_button:active {
     transform: scale(0.95);
 }
+
+/* 반응형 디자인 추가 */
+@media (max-width: 768px) {
+    .button {
+        font-size: 24px;
+        padding: 0.5em 1em;
+    }
+
+    .title_container {
+        padding-left: 20px;
+        gap: 15px;
+    }
+
+    .house {
+        height: auto;
+        padding: 1em 0;
+    }
+
+    .back_button {
+        width: 50px;
+        height: 50px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        font-size: 20px;
+        padding: 0.4em 0.8em;
+    }
+
+    .title_container {
+        padding-left: 15px;
+        gap: 10px;
+    }
+
+    .house {
+        height: auto;
+        padding: 0.5em 0;
+    }
+
+    .back_button {
+        width: 40px;
+        height: 40px;
+        font-size: small;
+    }
+}
