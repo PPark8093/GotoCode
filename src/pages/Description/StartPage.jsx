@@ -1,7 +1,10 @@
 import React from 'react'
 import "../../styles/Description/StartPage.css"
+import { useNavigate } from 'react-router-dom'
 
 function StartPage() {
+    const navi = useNavigate();
+
     return (
         <div className='start'>
             <div className='block_text'>
