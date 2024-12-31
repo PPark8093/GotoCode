@@ -1,3 +1,3 @@
 GotoCode
 
-gotocode.kro.kr
+https://gotocode.kro.kr
