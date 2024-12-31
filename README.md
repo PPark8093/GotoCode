@@ -1,3 +1,3 @@
 GotoCode
 
-https://gotocode.kro.kr
+https://gotocode.vercel.app
